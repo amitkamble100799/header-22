@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://mcdn.wallpapersafari.com/medium/91/94/PmdesY.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.main{
+    padding:5%;
+padding-top:2%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.startup{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.signup{
+    padding: 10px;
+ 
+    background: #25DAC5;
+    border-radius: 20px;
+}
+ul{
+    display: flex; 
+}
+li{
+    color: grey;
+    padding: 10px;
+    list-style-type: none;
+}
+li:hover{
+    background-color:#57ba6e;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.belownav{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 5%; 
+}
+.h1{
+    height: 70px;
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    left: 30%;
+}
+.p1{
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    width: 710px;
+    height: 95px;
+    position: relative;
+    left:20%;
+}
+.inp{
+    width: 970px;
+    position: relative;
+    left: 10%;
+}
+.inp1{
+    width: 340px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 40px;
+}
+button{
+    width: 170px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: rgb(221, 58, 221);
+}
+.lst{
+    padding: 15px;
+    display: flex;
+  position: absolute;
+  top: 78%;
+  left: 35%;
+  flex-direction: column;
+}
+.p2{
+    padding-left: 90px;
+    padding-bottom: 15px;
+}
+.fa-brands{
+    padding: 20px;
+}
